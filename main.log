@@ -1,0 +1,55 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\eLab.DESKTOP-0F5BO84\Desktop\surya\50wamp\main.net
+Start Time: Fri Jul 11 17:16:47 2025
+C:\Users\eLab.DESKTOP-0F5BO84\Desktop\surya\50wamp\tc4420.txt(30): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+G50 51 60 VALUE {V(50,0)*0.96/(-0.04+(18/V(OUT,VSS))^1.1)+1m}
+                                                    ^
+C:\Users\eLab.DESKTOP-0F5BO84\Desktop\surya\50wamp\tc4420.txt(30): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
+G50 51 60 VALUE {V(50,0)*0.96/(-0.04+(18/V(OUT,VSS))^1.1)+1m}
+                                                    ^
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node u1:1 is floating.
+WARNING: Node u2:1 is floating.
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.86414
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 2.09715
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 262.271 ms.
+Total elapsed time: 3.410 seconds.
+
+Files loaded:
+C:\Users\eLab.DESKTOP-0F5BO84\Desktop\surya\50wamp\main.net
+C:\Users\eLab.DESKTOP-0F5BO84\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\eLab.DESKTOP-0F5BO84\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\eLab.DESKTOP-0F5BO84\Desktop\surya\50wamp\tip31a.txt
+C:\Users\eLab.DESKTOP-0F5BO84\Desktop\surya\50wamp\tip32a.txt
+C:\Users\eLab.DESKTOP-0F5BO84\Desktop\surya\50wamp\tc4420.txt
+
